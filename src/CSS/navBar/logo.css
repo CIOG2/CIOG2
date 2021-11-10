@@ -1,0 +1,22 @@
+/*
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+*/
+.header__nav--conteiner-left .logo-container{
+    color: black;
+    text-decoration: none;
+}
+
+.header__nav--conteiner-left .logo-container .logo-text{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.header__nav--conteiner-left .logo-container .logo-llaves{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+ 
