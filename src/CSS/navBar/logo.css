@@ -26,6 +26,6 @@
 }
 .header__nav--conteiner-left .logo-container:hover p{
     transform: scale(1.1);
-    color: #f9c851;
+    color: var(--dorado);
     transition: all 1s;
 }

@@ -5,7 +5,7 @@
     width: 100%;
     height: 80px;    
     padding: 0 15px;
-    background-color: #151a25;
+    background-color: var(--oscuro);
 }
 
 

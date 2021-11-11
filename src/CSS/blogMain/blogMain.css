@@ -1,3 +1,9 @@
+:root{
+    --grisAzulito: #202c3a;
+    --oscuro: #151a25;
+    --dorado: #f9c851;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -9,7 +15,7 @@ html{
 }
 
 body{
-    background-color: #202c3a;   
+    background-color: var(--grisAzulito);
 }
 
 .main__section--title{
