@@ -39,3 +39,6 @@
 .hamburger-bottom{
     transform: rotate(323deg);
 }
+.main__section--title h1{
+    text-align: left;
+}
