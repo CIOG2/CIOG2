@@ -11,3 +11,18 @@ html{
 body{
     background-color: #202c3a;   
 }
+
+.main__section--title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    padding: 50px 10% 0 10%;
+}
+
+.main__section--title h1{
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+}
