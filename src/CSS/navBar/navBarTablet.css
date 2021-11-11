@@ -1,9 +1,13 @@
+.header__nav--conteiner-right .hamburger-menu{
+    display: none;
+}
+
+
 .header__nav--conteiner-right ul{
     display: flex;
     align-items: center;
     list-style: none;   
 }
-
 .header__nav--conteiner-right ul li{
     margin: 0 15px;
     transform: scale(1);
@@ -13,7 +17,6 @@
     transform: scale(1.1);
     transition: transform 1s;
 }
-
 .header__nav--conteiner-right ul li a{
     font-size: 2rem;
     font-weight: 700;
@@ -25,7 +28,6 @@
     color: #f9c851;
     transition: color 1s;
 }
-
 .header__nav--conteiner-right ul li button{
     width: 130px;
     height: 45px;

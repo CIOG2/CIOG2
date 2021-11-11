@@ -1,3 +1,41 @@
 .LINKS-PARA-TABLET{
     display: none;
 }
+
+.header__nav--conteiner-right .hamburger-menu{
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.header__nav--conteiner-right .hamburger-menu button{
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    border: none;
+}
+
+.header__nav--conteiner-right .hamburger-menu button .bar{
+    height: 6px;
+    background: white;
+    border-radius: 5px;
+    margin: 6px 0px;
+    transform-origin: left;
+    transition: all 0.5s;
+}
+  
+.hamburger-top{
+    transform: rotate(40deg);
+}
+  
+.hamburger-middle{
+    opacity: 0;
+}
+  
+.hamburger-bottom{
+    transform: rotate(323deg);
+}

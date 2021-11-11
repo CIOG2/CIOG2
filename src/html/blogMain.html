@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../CSS/navBar/hamburgerButton.css" media="(max-width: 699px)">
     <link rel="stylesheet" href="../CSS/navBar/navBarTablet.css" media="(min-width: 699px)">
     <link rel="stylesheet" href="../CSS/navBar/logo.css">
-        
+
     <!-- FUENTES -->
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,6 +27,13 @@
                 </a>
             </div>
             <div class="header__nav--conteiner-right">
+                <div class="hamburger-menu">
+                    <button onclick="desplegarLista()">
+                        <div class="bar top" id="hamburger-top"></div>
+                        <div class="bar middle" id="hamburger-middle"></div>
+                        <div class="bar bottom" id="hamburger-bottom"></div>        
+                    </button>
+                </div>  
                 <ul class="LINKS-PARA-TABLET">
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Portafolio</a></li>
@@ -43,5 +50,6 @@
     <footer class="footerBlog">
         
     </footer>
+    <script src="../JS/componentes/hamburgerButton.js"></script>
 </body>
 </html>
