@@ -19,4 +19,13 @@
     font-size: 30px;
     font-weight: 900;
 }
- 
+.header__nav--conteiner-left .logo-container p{
+    transform: scale(1);
+    color: white;
+    transition: all 1s;
+}
+.header__nav--conteiner-left .logo-container:hover p{
+    transform: scale(1.1);
+    color: #f9c851;
+    transition: all 1s;
+}
