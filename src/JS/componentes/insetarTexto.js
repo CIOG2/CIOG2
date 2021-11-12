@@ -23,8 +23,12 @@ function insetarElTexto(POSICION,T,valor) {
     for (let i = 0; i < T.length; i++) {
         setTimeout(function () {
             POSICION.innerHTML += T[i];
-        }, valor * 120);
-        valor += 1;
+        }, valor * 100);
+        if (T[i] == ' ') {
+            valor = valor;
+        } else {
+            valor += 1;
+        }
     }    
     return valor
 }
