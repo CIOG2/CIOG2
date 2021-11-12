@@ -57,6 +57,7 @@ body{
     text-align: center;
     font-weight: lighter;
     text-shadow: -2px 1px 5px rgb(0 0 0);
+    text-align: left;
 }
 
 .main__section--title h1 .estilosH1{
