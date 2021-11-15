@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CIOG</title>
-    <link rel="stylesheet" href="../CSS/blogMain/blogMain.css">
-    <link rel="stylesheet" href="../CSS/blogMain/blogMainTablet.css" media="(min-width: 750px)">
-    <link rel="stylesheet" href="../CSS/navBar/navBar.css">
-    <link rel="stylesheet" href="../CSS/navBar/hamburgerButton.css" media="(max-width: 699px)">
-    <link rel="stylesheet" href="../CSS/navBar/navBarTablet.css" media="(min-width: 699px)">
-    <link rel="stylesheet" href="../CSS/navBar/logo.css">
+    <link rel="stylesheet" href="src/CSS/blogMain/blogMain.css">
+    <link rel="stylesheet" href="src/CSS/blogMain/blogMainTablet.css" media="(min-width: 750px)">
+    <link rel="stylesheet" href="src/CSS/navBar/navBar.css">
+    <link rel="stylesheet" href="src/CSS/navBar/hamburgerButton.css" media="(max-width: 699px)">
+    <link rel="stylesheet" href="src/CSS/navBar/navBarTablet.css" media="(min-width: 699px)">
+    <link rel="stylesheet" href="src/CSS/navBar/logo.css">
 
     <!-- FUENTES -->
      <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,15 +48,20 @@
     <main class="mainBlog">
         <section class="main__section--title">
             <h1>
-                <span class="estilosH1" id="ETIQUETA-1"> </span><span class="estilosH1" id="ETIQUETA-2"></span>
+                
+                <span class="estilosH1" id="ETIQUETA-1"> </span><span class="estilosH1" id="ETIQUETA-2"></span>   
                 <span id="ETIQUETA-3"></span> <br>
                 <span class="negrita" id="ETIQUETA-4"></span><span id="ETIQUETA-5"></span> <br>
                 <span class="negrita2" id="ETIQUETA-6"></span>
                 <span class="estilosH1" id="ETIQUETA-7"></span><span class="estilosH1" id="ETIQUETA-8"></span>
             </h1>
         </section>
-        <section>
-
+        <section class="main__section--reciente flex">
+            <div class="contenedor-articulo flex">
+                <article class="article-container flex3">
+                    <h2 class="article-title">Mas Reciente</h2>
+                </article>
+            </div>
         </section>
     </main>
     <footer class="footerBlog">
@@ -72,7 +77,7 @@
 
         </section>
     </footer>
-    <script src="../JS/componentes/hamburgerButton.js"></script>
-    <script src="../JS/componentes/insetarTexto.js"></script>
+    <script src="src/JS/componentes/hamburgerButton.js"></script>
+    <script src="src/JS/componentes/insetarTexto.js"></script>
 </body>
 </html>
