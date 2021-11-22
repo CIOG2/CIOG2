@@ -1,19 +1,3 @@
-:root{
-    --grisAzulito: #202c3a;
-    --oscuro: #151a25;
-    --dorado: #f9c851;
-}
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-html{
-    font-size: 62.5%;
-    font-family: 'Roboto', sans-serif; 
-}
-
 body{
     display: grid;
     grid-template-rows: auto 1fr auto;
@@ -23,22 +7,6 @@ body{
 }
 
 
-.flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.flex2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.flex3{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
 
 .mainBlog{
     width: 100%;
@@ -82,28 +50,90 @@ body{
 .main__section--reciente{
     width: 100%;
     height: auto;
-}
+    }
 .main__section--reciente .contenedor-articulo{
     width: 80%;
     height: auto;
+    margin: 5% 0% 50px;
 }
 .main__section--reciente .contenedor-articulo .article-container{
     width: 100%;
-    height: 300px;
+    height: auto;
     max-width: 900px;
-    background-color: greenyellow;
-    border-radius: 40px;
+    border-radius: 15px;
+    background-color: var(--clarito);
+    box-shadow: -3px 4px 15px 6px rgb(0 0 0);
 }
-
-
 
 .main__section--reciente .article-title{
     width: auto;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-top: 30px;
     text-align: center;
     border-bottom: 1px solid black;
 }
+.main__section--reciente .note-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.main__section--reciente .text-container{
+    width: 90%;
+    height: auto;
+    padding: 15px 0px;
+    text-align: left;
+}
+.main__section--reciente .text-container h3{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.main__section--reciente .text-container p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.main__section--reciente .noText-container{
+    width: 90%;
+    height: auto;
+    padding: 15px 0px;
+}
+
+.main__section--reciente .noText-container img{
+    width: 90%;
+    height: auto;
+    max-width: 900px;
+    border-radius: 5px;
+    box-shadow: -1px 1px 6px 0px rgb(0 0 0); 
+    background-color: var(--clarito);
+}
+.main__section--reciente .noText-container a{
+    width: 120px;
+    height: 40px;
+    margin: 30px 0px 10px 0px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    border: none;
+    box-shadow: -2px 2px 6px 0px rgb(0 0 0);
+}
+
+.main__section--reciente .noText-container a span{
+    position: absolute;
+    background-image: url('https://ciog2.github.io/Batatabit/CSS/icons/down-arrow.svg');    
+}
+
+
+
+
+
+
 
 
 

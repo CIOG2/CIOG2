@@ -1,3 +1,11 @@
+:root{
+    --grisAzulito: #202c3a;
+    --oscuro: #151a25;
+    --dorado: #f9c851;
+    --clarito: #dbdbdb;
+    --amarillo: #F9F871;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -5,10 +13,28 @@
 }
 html{
     font-size: 62.5%;
+    font-family: 'Roboto', sans-serif; 
 }
 
-body{
-    width: 100%;
-    height: 100vh;
-    background-color: #06d86d;
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flex3{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.flex4{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
 }

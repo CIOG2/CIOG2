@@ -12,4 +12,6 @@
 .main__section--title h1 .negrita2{
     font-size: 5rem;
 }
-
+.main__section--reciente .contenedor-articulo .article-container{
+    border-radius: 40px;
+}
