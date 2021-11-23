@@ -35,6 +35,11 @@ html{
 .flex4{
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: center;            
     flex-direction: column;
+}
+.flex5{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
