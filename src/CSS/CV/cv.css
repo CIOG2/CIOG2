@@ -1,0 +1,29 @@
+body{
+    background-color: var(--grisAzulito);
+}
+
+.main-cv{
+    width: 100%;
+    height: auto;
+}
+
+.main__section--porcentajes{
+    width: 90%;
+    height: auto;
+}
+.porcentajes__title{
+    width: 80%;
+    margin: 30px 0;
+    font-size: 3rem;
+    color: var(--clarito);
+    text-align: center;
+}
+
+.porcentajes__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+}

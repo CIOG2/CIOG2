@@ -1,0 +1,173 @@
+:root{
+    --html: #d55300;
+    --css: #2277ff;
+    --javascript: #f7df1e;
+    --git: #f05033;
+    --react: #4ad5ff;
+}
+
+.porcentajes__container .container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 260px;
+    background-color: #444444;
+    border-radius: 50%;
+    box-shadow: 0 0 21px 0px rgb(0 0 0);
+    margin: 30px 0;
+}
+
+
+.container__div--text{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 77%;
+    height: 77%;
+    border-radius: 50%;
+    background-color: var(--oscuro);
+    box-shadow: 0px 0px 11px 3px rgb(0 0 0);
+}
+.container__div--text h3{
+    font-size: 4.5rem;
+    color: var(--clarito);
+}
+.container__div--text p{
+    font-size: 2.5rem;
+    color: var(--clarito);
+}
+
+
+.container-porcentaje{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.porcentaje--barra{
+    width: 100%;
+    height: 100%;
+}
+.por1--barra{
+    border-radius: 0 100% 0 0;
+    transform-origin: bottom left;
+    transform: rotate(0deg);
+}
+.por2--barra{
+    border-radius: 0 0 100% 0;
+    transform-origin: top left;    
+    transform: rotate(270deg);
+    transition: all 3s;
+}
+.por3--barra{
+    border-radius: 0 0 0 100%;
+    transform-origin: top right;
+    transform: rotate(180deg);
+    transition: all 3s;
+}
+.por4--barra{
+    border-radius: 100% 0 0 0;
+    transform-origin: bottom right;
+    transform: rotate(90deg);
+    transition: all 3s;
+}
+
+.por1--barra-html{
+    border-right: 30px solid var(--html);
+    border-top: 30px solid var(--html);
+}
+.por2--barra-html{
+    border-right: 30px solid var(--html);
+    border-bottom: 30px solid var(--html);   
+}
+.por3--barra-html{
+    border-left: 30px solid var(--html);
+    border-bottom: 30px solid var(--html);   
+}
+.por4--barra-html{
+    border-left: 30px solid var(--html);
+    border-top: 30px solid var(--html);   
+}
+
+
+
+.por1--barra-css{
+    border-right: 30px solid var(--css);
+    border-top: 30px solid var(--css);
+}
+.por2--barra-css{
+    border-right: 30px solid var(--css);
+    border-bottom: 30px solid var(--css);   
+}
+.por3--barra-css{
+    border-left: 30px solid var(--css);
+    border-bottom: 30px solid var(--css);   
+}
+.por4--barra-css{
+    border-left: 30px solid var(--css);
+    border-top: 30px solid var(--css);
+}
+
+
+
+.por1--barra-javascript{
+    border-right: 30px solid var(--javascript);
+    border-top: 30px solid var(--javascript);
+}
+.por2--barra-javascript{
+    border-right: 30px solid var(--javascript);
+    border-bottom: 30px solid var(--javascript);   
+}
+.por3--barra-javascript{
+    border-left: 30px solid var(--javascript);
+    border-bottom: 30px solid var(--javascript);   
+}
+.por4--barra-javascript{
+    border-left: 30px solid var(--javascript);
+    border-top: 30px solid var(--javascript);   
+}
+
+
+
+.por1--barra-git{
+    border-right: 30px solid var(--git);
+    border-top: 30px solid var(--git);
+}
+.por2--barra-git{
+    border-right: 30px solid var(--git);
+    border-bottom: 30px solid var(--git);   
+}
+.por3--barra-git{
+    border-left: 30px solid var(--git);
+    border-bottom: 30px solid var(--git);   
+}
+.por4--barra-git{
+    border-left: 30px solid var(--git);
+    border-top: 30px solid var(--git);   
+}
+
+
+
+.por1--barra-react{
+    border-right: 30px solid var(--react);
+    border-top: 30px solid var(--react);
+}
+.por2--barra-react{
+    border-right: 30px solid var(--react);
+    border-bottom: 30px solid var(--react);   
+}
+.por3--barra-react{
+    border-left: 30px solid var(--react);
+    border-bottom: 30px solid var(--react);   
+}
+.por4--barra-react{
+    border-left: 30px solid var(--react);
+    border-top: 30px solid var(--react);
+}
