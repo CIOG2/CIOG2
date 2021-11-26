@@ -19,7 +19,7 @@ let texto = {
     llaveCierre2: '/h1>',
 } 
 
-function insetarElTexto(POSICION,T,valor,ultimo) {
+function insetarElTexto(POSICION,T,valor) {
     for (let i = 0; i < T.length; i++) {
         setTimeout(function () {
             POSICION.innerHTML += T[i];
