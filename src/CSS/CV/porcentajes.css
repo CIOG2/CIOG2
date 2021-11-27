@@ -14,10 +14,10 @@
     align-items: center;
     width: 230px;
     height: 230px;
+    margin: 20px 0;
     background-color: #444444;
     border-radius: 50%;
-    box-shadow: 0 0 21px 0px rgb(0 0 0);
-    margin: 20px 0;
+    box-shadow: 0 0 20px 0px rgb(0 0 0 / 50%);
 }
 
 
@@ -31,7 +31,7 @@
     height: 77%;
     border-radius: 50%;
     background-color: var(--oscuro);
-    box-shadow: 0px 0px 11px 3px rgb(0 0 0);
+    box-shadow: 0px 0px 11px 3px rgb(0 0 0 / 50%)
 }
 .container__div--text h3{
     font-size: 4.5rem;
