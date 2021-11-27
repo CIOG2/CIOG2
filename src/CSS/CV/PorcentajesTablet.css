@@ -1,0 +1,20 @@
+.porcentajes__container{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+@media (min-width: 900px) {
+    .porcentajes__container{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1030px) {
+    .porcentajes__container .container{
+        width: 270px;
+        height: 270px;
+    }
+}
