@@ -4,6 +4,7 @@
     --javascript: #f7df1e;
     --git: #f05033;
     --react: #4ad5ff;
+    --responsive: #50098a;
 }
 
 .porcentajes__container .container{
@@ -11,12 +12,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 260px;
-    height: 260px;
+    width: 230px;
+    height: 230px;
     background-color: #444444;
     border-radius: 50%;
     box-shadow: 0 0 21px 0px rgb(0 0 0);
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
 
@@ -40,7 +41,11 @@
     font-size: 2.5rem;
     color: var(--clarito);
 }
-
+#RESPONSIVE-Progreso .container__div--text p{
+    text-align: center;
+    font-size: 2.2rem;
+    color: var(--clarito);
+}
 
 .container-porcentaje{
     position: absolute;
@@ -170,4 +175,22 @@
 .por4--barra-react{
     border-left: 30px solid var(--react);
     border-top: 30px solid var(--react);
+}
+
+
+.por1--barra-responsive{
+    border-right: 30px solid var(--responsive);
+    border-top: 30px solid var(--responsive);
+}
+.por2--barra-responsive{
+    border-right: 30px solid var(--responsive);
+    border-bottom: 30px solid var(--responsive);   
+}
+.por3--barra-responsive{
+    border-left: 30px solid var(--responsive);
+    border-bottom: 30px solid var(--responsive);   
+}
+.por4--barra-responsive{
+    border-left: 30px solid var(--responsive);
+    border-top: 30px solid var(--responsive);
 }
