@@ -39,8 +39,9 @@
     cursor: pointer;
 }
 
-
-
+.container-menu-mobile-listas{
+    display: none;
+}
 
 
 @media(max-width: 750px){
