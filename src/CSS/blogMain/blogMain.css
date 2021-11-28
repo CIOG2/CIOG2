@@ -20,33 +20,6 @@ body{
     height: auto;
     padding: 50px 10% 70px 10%;
 }
-.main__section--title h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 4rem;
-    letter-spacing: 0.1rem;
-    color: white;
-    text-align: center;
-    font-weight: lighter;
-    text-shadow: -2px 1px 5px rgb(0 0 0);
-    text-align: left;
-}
-.main__section--title h1 .estilosH1{
-    font-family: 'Roboto', sans-serif; 
-    font-size: 3rem;
-    color: var(--dorado);
-    text-shadow: 0px 0px 0px rgb(0 0 0);
-}
-.main__section--title h1 .negrita{
-    font-size: 4.3rem;
-    font-weight: bold;
-    letter-spacing: 0;
-}
-.main__section--title h1 .negrita2{
-    font-size: 4rem;
-    font-weight: 600;
-    letter-spacing: 0;
-}
-
 .main__section--reciente{
     width: 100%;
     height: auto;
