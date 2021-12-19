@@ -14,13 +14,19 @@ body{
 .main__section--title{
     width: 100%;
     height: auto;
-    padding: 50px 10% 70px 10%;
+    padding: 50px 10% 70px 10%;    
 }
 .main__section--title .section--container{
     width: 90%;
     height: auto;
-    border-bottom: 1px solid black;
+    margin: 0 auto;
 }
+.border-line{
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+
 .main__section--title .section--container div{
     width: 100%;
     height: auto;
@@ -37,7 +43,6 @@ body{
     color: var(--clarito);
     text-align: center;
     font-style: italic;
-
 }
 
 .main__section--title .gratitude-container{
