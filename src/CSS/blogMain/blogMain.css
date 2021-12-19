@@ -7,19 +7,69 @@ body{
 }
 
 
-
 .mainBlog{
     width: 100%;
     height: auto;
 }
 .main__section--title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: auto;
     padding: 50px 10% 70px 10%;
 }
+.main__section--title .section--container{
+    width: 90%;
+    height: auto;
+    border-bottom: 1px solid black;
+}
+.main__section--title .section--container div{
+    width: 100%;
+    height: auto;
+}
+.main__section--title h2{
+    font-size: 2.5rem;
+    color: var(--dorado);
+    margin-bottom: 10px;
+}
+.main__section--title div h1{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: var(--clarito);
+    text-align: center;
+    font-style: italic;
+
+}
+
+.main__section--title .gratitude-container{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding: 15px 0 15px 0;
+}
+
+.main__section--title .gratitude-container a img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.main__section--title .gratitude-container p{
+    font-size:  2rem;
+    font-weight: 700;
+    color: var(--dorado);
+    padding: 5px 0 5px 0;
+}
+.main__section--title .gratitude-container p span{
+    font-size:  1.5rem;
+    font-weight: 700;
+    color: var(--clarito);
+}
+
+
+
+
+
+
 .main__section--reciente{
     width: 100%;
     height: auto;
@@ -95,9 +145,4 @@ body{
     border-radius: 20px;
     border: none;
     box-shadow: -2px 2px 6px 0px rgb(0 0 0);
-}
-
-.main__section--reciente .noText-container a span{
-    position: absolute;
-    background-image: url('https://ciog2.github.io/Batatabit/CSS/icons/down-arrow.svg');    
 }

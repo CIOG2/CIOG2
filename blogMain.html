@@ -81,6 +81,20 @@
       </div>
     </header>
     <main class="mainBlog">
+      
+      <section class="main__section--title flex">
+        <div class="section--container flex6">
+          <h2 id="tag"></h2>
+          <div class="title-container">
+            <h1 id="frase"></h1>
+          </div>
+          <div class="gratitude-container">
+            <p>Autor: <span id="author"></span></p>
+            <p>Recomendación: <span id="recomendacion"></span> </p>
+            <a id="link"><img id="socialMedia"></a>
+          </div>
+        </div>
+      </section>
       <section class="main__section--reciente flex">
         <div class="contenedor-articulo flex">
           <article class="article-container flex4">
@@ -103,6 +117,8 @@
           </article>
         </div>
       </section>
+    
+
     </main>
     <footer class="footer">
       <section class="footer__section--links">
@@ -138,7 +154,7 @@
             <li><h3>Extras</h3></li>
             <li><a href="#">¿Te gustaria publicar un post?</a></li>
             <li><a href="#">Recomiendame un tema</a></li>
-            <li><a href="#">¿Algo esta mal?</a></li>
+            <li><a href="#">Quiero recomendar una frase</a></li>
             <li><a href="https://github.com/CIOG2/CIOG2" target="_blank">Repositorio en Github</a></li>
           </ul>
         </div>
@@ -164,5 +180,6 @@
       </section>
     </footer>
     <script src="src/JS/componentes/hamburgerButton.js"></script>
+    <script src="src/JS/componentes/FraseAleatoria.js" type="module"></script>
   </body>
 </html>
