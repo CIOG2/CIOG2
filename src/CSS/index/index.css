@@ -141,10 +141,10 @@ body{
 
 @media(min-width: 600px){ 
   .main__section--title{
-    height: 50%;
+    height: 60%;
   }
   .container__button{
-    height: 50%;
+    height: 40%;
   }
   
 
