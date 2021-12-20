@@ -50,11 +50,10 @@ body{
     height: 100%;
 }
 /* Estilos de los titulos */
-.main__section--social-media h2{
+h2{
     font-size: 3rem;
     text-align: center;
     color: var(--clarito);
-   
 }
 .title-discord{
    margin-top: 50px; 
@@ -117,3 +116,98 @@ body{
 
 
 
+
+.main__section--form{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.main__section--form form{
+    width: 90%;
+    height: auto;
+    background-color: var(--oscuro);
+    max-width: 500px;
+    padding: 40px 0 40px 0;
+    border-radius: 20px;
+}
+
+.main__section--form form label{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--clarito);
+}
+
+.main__section--form form input{
+    width: 90%;
+    height: 40px;
+    max-width: 350px;
+    padding-left: 10px;
+    font-size: 1.7rem;
+    color: var(--oscuro);
+    font-weight: 500;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+}
+
+.main__section--form form select{
+    width: 90%;
+    height: 40px;
+    max-width: 350px;
+    padding-left: 10px;
+    font-size: 1.7rem;
+    color: var(--oscuro);
+    font-weight: 500;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+}
+
+.main__section--form form textarea{
+    width: 90%;
+    height: 120px;
+    max-width: 350px;
+    padding: 5px 10px;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 1.7rem;
+    color: var(--oscuro);
+    font-weight: 400;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    resize: none;
+}
+
+.main__section--form form button{
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 1.7rem;
+    border: none;
+    border-radius: 20px;
+} 
+
+
+
+@media(min-width: 360px){
+    .logo-container .logo-text {
+      font-size: 2.5rem;
+    }
+    .logo-container .logo-llaves {
+      font-size: 3.5rem;
+    }   
+}
+  
+ @media(min-width: 600px){ 
+    .logo-container .logo-text {
+      font-size: 3.5rem;
+    }
+    .logo-container .logo-llaves {
+      font-size: 4.5rem;
+    }     
+    h2{
+        font-size: 4rem;
+        margin-bottom: 10px;
+    }
+}

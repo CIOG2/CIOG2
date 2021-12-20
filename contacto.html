@@ -7,6 +7,14 @@
     <title>Contacto</title>
     <link rel="stylesheet" href="src/CSS/main.css">
     <link rel="stylesheet" href="src/CSS/contacto/contacto.css">
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,500&family=Mochiy+Pop+P+One&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,500&display=swap"
+        rel="stylesheet"
+    />
+    <!--  -->
 </head>
 <body>
 <header class="header-contacto">
@@ -20,7 +28,7 @@
     </header>
     <main class="main-contacto">
         <section class="main__section--social-media flex2">
-            <h2>Contactame en mis redes</h2>
+            <h2>Contáctame en mis redes</h2>
             <div class="social-media-container flex2">
                 <a href="https://www.linkedin.com/in/carlos-ivan-ochoa-gomez-90bb1b20a/" target="_blank">
                     <div class="linkedin">
@@ -50,6 +58,30 @@
                     </div>
                 </a>
             </div>
+        </section>
+        <section class="main__section--form flex2">
+            <h2>Contáctame atreves de Email</h2>
+            <form action="https://formsubmit.co/carlos.ivan10043@gmail.com" method="POST" class="flex2">
+                    <label>Nombre:</label>
+                    <input type="name" name="name" required>
+                <br>
+                    <label>Email:</label> 
+                    <input type="email" name="email" required>
+                <br>
+                    <label>Asunto:</label>
+                    <select name="Asunto" required>
+                        <option value="value1">Quiero escribir un post</option>
+                        <option value="value1">Quiero recomendar un tema</option>
+                        <option value="value2">Quiero recomendar una frase</option>
+                        <option value="value3">Oportunidad de empleo</option>
+                        <option value="value3">Otro...</option>
+                    </select>
+                <br>
+                    <label>Mensaje:</label>
+                    <textarea name="Mensaje" required></textarea>
+                <br>
+                    <button type="submit">Enviar</button>
+           </form>
         </section>
     </main>
 </body>
