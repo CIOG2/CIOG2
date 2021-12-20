@@ -1,0 +1,119 @@
+body{
+    background-color: var(--grisAzulito);
+}
+/* Hearder y estilos del logo */
+.header-contacto{
+    width: 100%;
+    height: 80px;
+    padding: 0 20px;
+    background-color: var(--oscuro);
+}
+.container__title{
+    width: 100%;
+    height: 100%;
+}
+.logo-container{
+    text-decoration: none;
+    color: var(--clarito);
+}
+.logo-container .logo-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 5px 2px 0 2px;
+}
+.logo-container .logo-llaves {
+    font-family: "Mochiy Pop P One", sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.logo-container p {
+    transform: scale(1);
+    color: white;
+    transition: all 1s;
+}
+.logo-container:hover p {
+    transform: scale(1.1);
+    color: var(--dorado);
+    transition: all 1s;
+}
+/* Hearder y estilos del logo */
+
+
+.main-contacto{
+    width: 100%;
+    height: auto;
+    padding: 20px 0 20px 0;
+}
+.main__section--social-media{
+    width: 100%;
+    height: 100%;
+}
+/* Estilos de los titulos */
+.main__section--social-media h2{
+    font-size: 3rem;
+    text-align: center;
+    color: var(--clarito);
+   
+}
+.title-discord{
+   margin-top: 50px; 
+}
+/* Estilos de los titulos */
+
+
+.main__section--social-media .social-media-container{
+    width: 100%;
+    height: auto;
+}
+.main__section--social-media .social-media-container a{
+    width: 85%;
+    height: 100px;
+    max-width: 400px;
+    margin: 10px;
+    text-decoration: none;
+}
+.main__section--social-media .social-media-container div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    box-shadow: -3px 3px 10px 0px rgb(0 0 0);
+    transition: box-shadow 0.5s;
+    border-radius: 20px
+}
+.main__section--social-media .social-media-container div:hover{
+    box-shadow: 0px 0px 10px 1px rgb(255, 255, 255);
+    transition: box-shadow 0.5s;
+}
+.main__section--social-media .social-media-container div p{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--clarito);
+}
+.main__section--social-media .social-media-container div img{
+    width: 70px;
+    height: 70px;
+}
+.instagram{
+    background-image: linear-gradient(to bottom, #7024c4, #c80095, #ea2366, #ed6345, #de943e);
+}
+.instagram svg{
+    width: 50px;
+    height: 50px;
+    fill: var(--clarito);
+    margin-right: 20px;
+}
+.linkedin{
+    background-color: #0b69c7;
+}
+.twitter{
+    background-color: #00a6de;
+}
+.discord{
+    background-color: #5046af;
+}
+
+
+
