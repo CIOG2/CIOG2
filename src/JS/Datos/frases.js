@@ -8,6 +8,13 @@ const Frases = [
       tag: "#Frase de Rick and Morty",
       recomendacion: "Carlos Iván",
     },
+    {
+      frase: `"Daría todo lo que sé, por la mitad de lo que ignoro."`,
+      autor: "Rene Descartes",
+      socialMedia: ["twiter", "https://twitter.com/GoCarlos"],
+      tag: "#Frase",
+      recomendacion: "Carlos Iván",  
+    }
   ];
 
 export default Frases;
