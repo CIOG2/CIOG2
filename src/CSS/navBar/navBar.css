@@ -6,6 +6,7 @@
     height: 80px;    
     padding: 0 15px;
     background-color: var(--oscuro);
+    z-index: 1;
 }
 
 .header__nav--conteiner-left .logo-container{

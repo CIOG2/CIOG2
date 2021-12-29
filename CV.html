@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="./src/CSS/CV/cv.css">
     <link rel="stylesheet" href="./src/CSS/CV/porcentajes.css">
     <link rel="stylesheet" href="./src/CSS/CV/PorcentajesTablet.css" media="(min-width: 600px)">
+    <link rel="stylesheet" href="src/CSS/navBar/navBar.css" />
+    <link rel="stylesheet" href="src/CSS/navBar/hamburgerButton.css" media="(max-width: 699px)"/>
+    <link rel="stylesheet" href="src/CSS/navBar/navBarTablet.css" media="(min-width: 699px)"/>
+    <link rel="stylesheet" href="src/CSS/navBar/logo.css" />
+
     <!-- FUENTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +21,50 @@
     <!--  -->
 </head>
 <body>
+    <header class="headerBlog">
+        <nav class="header__nav">
+            <div class="header__nav--conteiner-left">
+            <a href="https://ciog2.github.io/CIOG2/" class="logo-container">
+                <p class="logo-llaves"><</p>
+                <p class="logo-text">CIOG</p>
+                <p class="logo-llaves">/></p>
+            </a>
+            </div>
+            <div class="header__nav--conteiner-right">
+            <div class="hamburger-menu">
+                <button onclick="desplegarLista()">
+                <div class="bar top" id="hamburger-top"></div>
+                <div class="bar middle" id="hamburger-middle"></div>
+                <div class="bar bottom" id="hamburger-bottom"></div>
+                </button>
+            </div>
+            <ul class="LINKS-PARA-TABLET">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Portafolio</a></li>
+                <li><a href="https://ciog2.github.io/CIOG2/CV.html">CV</a></li>
+                <li><a href="#">Sobre Mi</a></li>
+                <li>
+                <a href="https://ciog2.github.io/CIOG2/contacto.html"> <button>Contacto</button> </a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+        <div id="container-menu-mobile" class="container-menu-mobile-listas">
+            <ul class="container-menu-mobile-listas">
+            <li class="container-menu-mobile-listas"><a href="#">Blog</a></li>
+            <li class="container-menu-mobile-listas">
+                <a href="#">Portafolio</a>
+            </li>
+            <li class="container-menu-mobile-listas">
+                <a href="https://ciog2.github.io/CIOG2/CV.html">CV</a>
+            </li>
+            <li class="container-menu-mobile-listas"><a href="#">Sobre Mi</a></li>
+            <li class="container-menu-mobile-listas">
+                <a href="https://ciog2.github.io/CIOG2/contacto.html"> <button>Contacto</button> </a>
+            </li>
+            </ul>
+        </div>
+    </header>
     <main class="main-cv flex2">
         <section class="main__section--porcentajes flex4">
             <h2 class="porcentajes__title"> 
@@ -106,5 +155,6 @@
         </section>
     </main>
 </body>
+<script src="src/JS/componentes/hamburgerButton.js"></script>   
 <script src="./src/JS/componentes/porcentajes.js"></script>
 </html>
