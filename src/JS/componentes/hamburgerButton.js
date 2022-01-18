@@ -14,7 +14,7 @@ function desplegarLista() {
         botton.classList.add('hamburger-bottom');
         document.getElementsByClassName("header__nav")[0].style.position = "fixed";
         containerMenu.classList.add("hamburger-opciones");
-        containerMenu.style.zIndex = "1";
+        containerMenu.style.zIndex = "5";
         clasesRemove();
         PRESS = false;
     }

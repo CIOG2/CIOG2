@@ -1,0 +1,82 @@
+.Circulo{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35%;
+    background-color: #0293a4;
+}
+
+.Circulito{
+    width: 50%;
+    height: 50%;
+    border-radius: 25%;
+    background-color: var(--grisAzulito);
+}
+
+.Cpos1{
+    width: 40px;
+    height: 40px;
+    top: 2%;
+    left: 70%;
+    background-color: var(--dorado);
+    animation: parpadeo2 8s infinite reverse;
+}
+.Cpos2{
+    width: 70px;
+    height: 70px;
+    top: 80%;
+    left: 30%;
+    background-color: var(--clarito);
+    animation: parpadeo1 10s infinite reverse;
+}
+.Cpos3{
+    width: 30px;
+    height: 30px;
+    top: 40%;
+    right: 15%;
+    animation: parpadeo2 13s infinite reverse;
+}
+.Cpos4{
+    width: 25px;
+    height: 25px;
+    top: 27%;
+    left: 3%;
+    animation: parpadeo1 8s infinite reverse;
+}
+.Cpos5{
+    width: 20px;
+    height: 20px;
+    top: 75%;
+    right: 40%;
+    background-color: var(--dorado);
+    animation: parpadeo1 4s infinite reverse;
+}
+
+
+
+@keyframes parpadeo1 {
+    0% {
+        background-color: var(--dorado);
+    }
+    50% {
+        background-color: #0293a4;
+    }
+    100% {
+        background-color: var(--clarito);
+    }
+}
+
+
+
+@keyframes parpadeo2 {
+    0% {
+        background-color: #0293a4;
+    }
+    50% {
+        background-color: var(--dorado);
+    }
+    100% {
+        background-color: var(--clarito);
+    }
+}

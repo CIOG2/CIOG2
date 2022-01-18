@@ -8,12 +8,12 @@ body{
 }
 
 .main__section--presentacion{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+    position: relative;
     width: 100%;
     height: calc(100vh - 80px);
     min-height: 500px;
     max-height: 1000px;
+    overflow-x: hidden;
 }
 
 .main__section--presentacion .text-container{
@@ -23,18 +23,22 @@ body{
     flex-direction: column;
     width: 100%;
     height: 100%;
-    padding-left: 10%;
+    padding: 0 0 30% 10%;
 }
 .main__section--presentacion .text-container h1{
-    font-size: 5rem;
-    color: var(--clarito);
+    font-size: 7rem;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    z-index: 1;
 }
 .main__section--presentacion .text-container p{
-    font-size: 3rem;
-    color: var(--dorado);
+    display: none;
 }
 .main__section--presentacion .text-container h1 span{
-    color: var(--clarito);
+    color: red;
+    font-size: 8rem;
+    z-index: 1;
 }
 
 
@@ -43,8 +47,6 @@ body{
     width: 100%;
     height: 100%;
 }
-
-
 
 .main__section--porcentajes{
     width: 90%;
@@ -85,8 +87,31 @@ body{
 
 
 @media screen and (min-width: 768px){
-    .main__section--presentacion{
-        grid-template-rows: none;
-        grid-template-columns: 1fr 1fr;
+    .main__section--presentacion .text-container h1{
+        margin: 100px 0 0 50px;
+        font-size: 8rem;
+    } 
+}
+
+
+
+@media screen and (min-width: 968px){
+    .main__section--presentacion .text-container h1{
+        margin: 300px 0 0 50px;
+        font-size: 7rem;
     }
+
+    .br{
+        display: none;
+    }
+    
+    .main__section--presentacion .text-container p{
+        display: block;
+        font-size: 6rem;
+        font-weight: 900;
+        letter-spacing: 4px;
+        margin-left: 50px;
+        color: var(--dorado);
+        z-index: 1;
+    }       
 }
