@@ -13,6 +13,7 @@ body{
     height: calc(100vh - 80px);
     min-height: 500px;
     max-height: 1000px;
+    max-width: 1500px;
     overflow-x: hidden;
 }
 
