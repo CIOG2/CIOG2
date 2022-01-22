@@ -14,7 +14,15 @@ const Frases = [
       socialMedia: ["twiter", "https://twitter.com/GoCarlos"],
       tag: "#Frase",
       recomendacion: "Carlos Iván",  
-    }
+    },
+    {
+    frase: `"Cualquier Tecnologia suficientemente avanzada
+        es indistinguible de la magia"`,
+    autor: "Arthur C. Clarke",
+    socialMedia: ["twiter", "https://twitter.com/GoCarlos"],
+    tag: "#Frase",
+    recomendacion: "Carlos Iván",  
+  }
   ];
 
 export default Frases;
