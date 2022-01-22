@@ -28,3 +28,6 @@
     padding: 15px 0 15px 0;
 }
 
+.main__section--reciente .article-container{
+    flex-direction: row;
+}

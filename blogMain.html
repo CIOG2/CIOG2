@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CIOG</title>
+    <title>Blog</title>
     <link rel="stylesheet" href="src/CSS/main.css" />
     <link rel="stylesheet" href="src/CSS/blogMain/blogMain.css" />
     <link
@@ -36,7 +36,7 @@
     <!--  -->
   </head>
   <body>
-    <header class="headerBlog">
+    <header class="header">
       <nav class="header__nav">
         <div class="header__nav--conteiner-left">
           <a href="https://ciog2.github.io/CIOG2/" class="logo-container">
@@ -80,8 +80,7 @@
         </ul>
       </div>
     </header>
-    <main class="mainBlog">
-      
+    <main class="mainBlog"> 
       <section class="main__section--title flex1">
         <div class="section--container flex6">
           <h2 id="tag"></h2>
@@ -97,9 +96,12 @@
         <div class="border-line"></div>
       </section>
       <section class="main__section--reciente flex">
-        <div class="contenedor-articulo flex">
+        <div class="contenedor-article flex">
           <article class="article-container flex4">
-            <h2 class="article-title">Mas Reciente</h2>
+            <div class="noText-container flex2">
+              <h2 class="article-title">Mas Reciente</h2>
+              <img src="https://rxexar.github.io/MiBlog/images/lorenzo-herrera-p0j-mE6mGo4-unsplash-2.png" alt="imagen" />
+            </div>
             <div class="note-container">
               <div class="text-container">
                 <h3>dolor sit amet consectetur adipisicing</h3>
@@ -111,15 +113,16 @@
                 </p>
               </div>
               <div class="noText-container flex2">
-                <img src="" alt="imagen" />
                 <a href="" class="flex">Ver Mas <span></span></a>
               </div>
             </div>
           </article>
         </div>
       </section>
-    
-
+      <section class="main__section--articulos flex">
+        <div class="arcticles--container" id="container-articulos">
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <section class="footer__section--links">
@@ -182,5 +185,6 @@
     </footer>
     <script src="src/JS/componentes/hamburgerButton.js"></script>
     <script src="src/JS/componentes/FraseAleatoria.js" type="module"></script>
+    <script src="src/JS/componentes/Articulos.js" type="module"></script>
   </body>
 </html>
