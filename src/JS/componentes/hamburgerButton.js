@@ -13,8 +13,8 @@ function desplegarLista() {
         middle.classList.add('hamburger-middle');
         botton.classList.add('hamburger-bottom');
         document.getElementsByClassName("header__nav")[0].style.position = "fixed";
+        document.getElementsByClassName("header")[0].style.marginTop = "40px";
         containerMenu.classList.add("hamburger-opciones");
-        containerMenu.style.zIndex = "5";
         clasesRemove();
         PRESS = false;
     }
@@ -23,6 +23,7 @@ function desplegarLista() {
         middle.classList.remove('hamburger-middle');
         botton.classList.remove('hamburger-bottom');
         document.getElementsByClassName("header__nav")[0].style.position = "relative";
+        document.getElementsByClassName("header")[0].style.marginTop = "0px";
         clasesAdd();
         PRESS = true;
     }
