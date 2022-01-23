@@ -28,21 +28,21 @@
     top: 80%;
     left: 30%;
     background-color: var(--clarito);
-    animation: parpadeo1 10s infinite reverse;
+    animation: parpadeo1 10s infinite ;
 }
 .Cpos3{
     width: 30px;
     height: 30px;
     top: 40%;
     right: 15%;
-    animation: parpadeo2 13s infinite reverse;
+    animation: parpadeo2 13s infinite ;
 }
 .Cpos4{
     width: 25px;
     height: 25px;
     top: 27%;
     left: 3%;
-    animation: parpadeo1 8s infinite reverse;
+    animation: parpadeo1 8s infinite;
 }
 .Cpos5{
     width: 20px;
