@@ -7,6 +7,7 @@
 
 .footer__section--links{
     width: 100%;
+    max-width: 1200px;
     height: auto;
     padding-left: 20px;
 }
@@ -59,7 +60,8 @@
 .footer__section--creditos--text{
     width: 90%;
     height: 100%;
-    border-top: 1px solid var(--clarito);
+    max-width: 1400px;
+    border-top: 1px solid var(--clarito, white);
 }
 .footer__section--creditos--text p{
     font-size: 1.7rem;
@@ -91,5 +93,5 @@
         justify-content: center;
         align-items: center;
     }    
-
+    
 }

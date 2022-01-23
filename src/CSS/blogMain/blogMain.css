@@ -18,12 +18,15 @@ body{
 }
 .main__section--title .section--container{
     width: 90%;
+    max-width: 1200px;
     height: auto;
     margin: 0 auto;
 }
 .border-line{
     width: 100%;
-    border-bottom: 1px solid white;
+    max-width: 1400px;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--clarito, white);
 }
 
 
@@ -164,7 +167,7 @@ body{
     text-align: center;
     width: 90%;
     max-width: 1200px;
-    border-bottom: 2px solid var(--clarito, red);
+    border-bottom: 2px solid var(--clarito, white);
     margin: 10px 0;
 }
 
@@ -222,7 +225,7 @@ body{
     min-height: 200px;
     overflow: hidden;
     border-radius: 10px 10px 0px 0px;
-    border-bottom: 1px solid var(--oscuro);
+    border-bottom: 1px solid var(--oscuro, black);
 }
 
 .container--element-text{
