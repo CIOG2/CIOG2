@@ -13,6 +13,7 @@ function desplegarLista() {
         middle.classList.add('hamburger-middle');
         botton.classList.add('hamburger-bottom');
         document.getElementsByClassName("header__nav")[0].style.position = "fixed";
+        document.body.style.overflow = "hidden";
         containerMenu.classList.add("hamburger-opciones");
         clasesRemove();
         PRESS = false;
@@ -22,6 +23,7 @@ function desplegarLista() {
         middle.classList.remove('hamburger-middle');
         botton.classList.remove('hamburger-bottom');
         document.getElementsByClassName("header__nav")[0].style.position = "relative";
+        document.body.style.removeProperty("overflow");
         clasesAdd();
         PRESS = true;
     }
