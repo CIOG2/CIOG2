@@ -14,7 +14,7 @@
     max-width: 1500px;
     padding: 0 15px;
     background-color: var(--oscuro);
-    z-index: 5;
+    z-index: 6;
     top: 0;
 }
 
@@ -39,7 +39,7 @@
 .hamburger-opciones{
     position: fixed;
     width: 100%;
-    height: calc(100% - 80px);
+    height: 100%;
     bottom: 0;
     background-color: black;
     transition: all .5s;
