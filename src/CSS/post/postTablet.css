@@ -1,0 +1,37 @@
+
+@media(min-width: 700px){
+    .section__container--title h2{
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .container--title-text{
+        display: flex;
+    }
+    .container--title-text h3{
+        margin-right: 30px;
+    }
+
+    .section__container--title h1{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .section__container--content h4{
+        font-size: 3rem;
+    }
+}
+
+@media(min-width: 850px){
+    .section__container--title h1{
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+
+    .section__container--content p{
+        font-size: 1.8rem;
+        line-height: 3rem;
+    }
+    .section__container--content h4{
+        font-size: 3rem;
+    }
+}
