@@ -15,6 +15,7 @@
     padding: 0 15px;
     background-color: var(--oscuro);
     z-index: 5;
+    top: 0;
 }
 
 .header__nav--conteiner-left .logo-container{
@@ -40,7 +41,7 @@
     width: 100%;
     height: calc(100% - 80px);
     bottom: 0;
-    background-color: rebeccapurple;
+    background-color: black;
     transition: all .5s;
     z-index: 5;
 }
