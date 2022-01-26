@@ -80,3 +80,15 @@
         background-color: var(--clarito);
     }
 }
+
+@keyframes parpadeo3 {
+    0% {
+        border: 2px solid #0293a4;
+    }
+    50% {
+        border: 2px solid var(--dorado);
+    }
+    100% {
+        border: 2px solid var(--clarito);
+    }
+}

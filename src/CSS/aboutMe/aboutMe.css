@@ -41,12 +41,42 @@ body{
     font-size: 8rem;
     z-index: 1;
 }
-
-
-
 .main__section--presentacion .animation-container{
     width: 100%;
     height: 100%;
+}
+
+
+
+.main__section--CV{
+    width: 100%;
+    height: 250px;
+    margin: 35px 0;
+}
+.main__section--CV div{
+    width: 80%;
+    height: 100%;
+    max-width: 1200px;
+    background-color: var(--oscuro, black);
+    border-radius: 10px;
+}
+.main__section--CV div a{
+    width: 90%;
+    height: 80px;
+    max-width: 300px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: var(--clarito);
+    animation: parpadeo3 10s infinite;
+}
+
+.main__section--CV div a img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
 }
 
 .main__section--porcentajes{
@@ -92,6 +122,12 @@ body{
         margin: 100px 0 0 50px;
         font-size: 8rem;
     } 
+    .main__section--CV div a{
+        font-size: 2rem;
+    }
+    .porcentajes__title{
+        font-size: 4rem;
+    }
 }
 
 
