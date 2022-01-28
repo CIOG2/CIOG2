@@ -63,7 +63,7 @@ h2{
 .main__section--CV div{
     width: 80%;
     height: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     background-color: var(--oscuro, black);
     border-radius: 10px;
 }
@@ -108,27 +108,35 @@ h2{
 
 .main__section--educacion{
     width: 100%;
-    height: 500px;
+    height: auto;
 }
 .section--educacion-container{
     width: 90%;
     height: 100%;
-    max-width: 1200px;
-    padding-top: 40px;
-}
-
-.section--educacion-container p{
-    font-size: 1.6rem;
     max-width: 900px;
-    color: var(--clarito);
-    text-align: left;
-    color: var(--clarito,white);
-    margin: 10px 0;
+    padding: 40px 0px 50px;
 }
 
+.section--educacion-container p, .section--educacion-container ul li{
+    font-size: 1.7rem;
+    color: var(--clarito,white);
+    text-align: left;
+    margin: 10px 0;
+    font-weight: 300;
+}
+.section--educacion-container p span{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.section--educacion-container ul{
+    margin-top: 1   0px;
+    padding-left: 30px;
+}
 
-
-
+.section--educacion-container br{
+    width: 100px;
+    background-color: red;
+}
 
 
 
