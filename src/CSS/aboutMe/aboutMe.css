@@ -117,7 +117,9 @@ h2{
     padding: 40px 0px 50px;
 }
 
-.section--educacion-container p, .section--educacion-container ul li{
+
+.section--educacion-container p,
+.section--educacion-container ul li{
     font-size: 1.7rem;
     color: var(--clarito,white);
     text-align: left;
@@ -133,10 +135,40 @@ h2{
     padding-left: 30px;
 }
 
-.section--educacion-container br{
-    width: 100px;
-    background-color: red;
+
+.main__section--objetivo{
+    width: 90%;
+    height: 100%;
+    max-width: 900px;
+    padding: 40px 0px 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
