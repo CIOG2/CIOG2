@@ -15,6 +15,7 @@ function fraseAleatoria(frases) {
   tag.innerHTML = `${frases[numero].tag}`;
   link.href = `${frases[numero].socialMedia[1]}`;
   socialMedia.src = redSocial(frases[numero].socialMedia[0]);
+  socialMedia.alt = `${frases[numero].socialMedia[0]}`;
   author.innerHTML = `${frases[numero].autor}`;   
   recomendacion.innerHTML = `${frases[numero].recomendacion}`;
 }

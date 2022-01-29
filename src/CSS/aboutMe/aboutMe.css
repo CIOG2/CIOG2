@@ -3,7 +3,7 @@ body{
 }
 
 h2{
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin: 30px 0;
     color: var(--clarito);
     text-align: center;
@@ -79,7 +79,6 @@ h2{
     background-color: var(--clarito);
     animation: parpadeo3 10s infinite;
 }
-
 .main__section--CV div a img{
     width: 30px;
     height: 30px;
@@ -118,31 +117,39 @@ h2{
 }
 
 
+.section--educacion-container ul,
+.section--obejetivo-container ul{
+    margin-top: 1   0px;
+    padding-left: 30px;
+}
 .section--educacion-container p,
-.section--educacion-container ul li{
+.section--educacion-container ul li,
+.section--obejetivo-container p,
+.section--obejetivo-container ul li{
     font-size: 1.7rem;
     color: var(--clarito,white);
     text-align: left;
     margin: 10px 0;
     font-weight: 300;
 }
-.section--educacion-container p span{
+.section--educacion-container p span,
+.section--obejetivo-container p span{
     font-size: 2.5rem;
     font-weight: 600;
 }
-.section--educacion-container ul{
-    margin-top: 1   0px;
-    padding-left: 30px;
-}
+
 
 
 .main__section--objetivo{
+    width: 90%;
+    height: auto;
+}
+.section--obejetivo-container{
     width: 90%;
     height: 100%;
     max-width: 900px;
     padding: 40px 0px 50px;
 }
-
 
 
 
