@@ -49,20 +49,44 @@ body{
     letter-spacing: 1px;
 }
 
-.container--title-image{
+
+
+.container__image{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 100%;
     height: auto;
     padding: 25px 0px;
 }
-.section__container--title img{
+.container__image img{
     width: 100%;
     height: auto;
     max-width: 700px;
     max-height: 1000px;
 }
+.container__image figcaption{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    font-size: 1.1rem;
+    color: var(--clarito, white);
+    background-color: var(--oscuro, black);
+    padding: 5px 10px;
+    border-radius: 0 0 5px 5px;
+}
+.container__image figcaption a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: var(--clarito, white);    
+    cursor: pointer;
+}
+.container__image figcaption a:hover{
+    text-decoration: underline;
+}
+
+
 
 
 .section__container--content{
@@ -89,22 +113,6 @@ body{
     border-bottom: 1px solid var(--clarito, white);
 }
 
-.container--content-image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    padding: 25px 0px 50px 0px;
-}
-
-.section__container--content img{
-    width: 100%;
-    height: auto;
-    max-width: 700px;
-    max-height: 1000px;
-}
-
 .section__container--content blockquote{
     max-width: 400px;
     font-size: 1.7rem;
@@ -116,4 +124,40 @@ body{
     color: var(--clarito, white);
     background-color: var(--oscuro, black);
     border-radius: 5px;
+}
+
+
+
+.main__section--fuentes{
+    width: 100%;
+    height: auto;
+    background-color: var(--oscuro, black);
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.main__section--fuentes h2{
+    font-size: 3rem;
+    color: var(--clarito, white);
+}
+
+.main__section--fuentes ul{
+padding-left: 20px;
+}
+
+.main__section--fuentes ul li{
+    color: var(--clarito, white);
+    margin: 5px;
+}
+
+.main__section--fuentes ul li a{
+    color: var(--clarito, white);
+    font-size: 1.7rem;
+    text-decoration: none;
+}
+
+.main__section--fuentes ul li a:hover{
+    color: var(--dorado, gold);
+    text-decoration: underline;
 }
