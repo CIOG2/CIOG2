@@ -13,7 +13,7 @@ if(articulos.length >= 1){
             <article class="article-container flex4">
             <div class="noText-container flex2">
                 <h2 class="article-title">Mas Reciente</h2>
-                <img src="${articulos[0].image}" alt="${articulos[0].description}" />
+                <img src="${articulos[0].image}" alt="${articulos[0].ImageAlt}" />
             </div>
             <div class="note-container">
                 <div class="text-container">
