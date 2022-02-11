@@ -1,6 +1,6 @@
 
 @media(min-width: 700px){
-    .section__container--title h2{
+    .section__container--title h3{
         font-size: 3rem;
         font-weight: 600;
     }
@@ -8,7 +8,7 @@
     .container--title-text{
         display: flex;
     }
-    .container--title-text h3{
+    .container--title-text h2{
         margin-right: 30px;
     }
 
