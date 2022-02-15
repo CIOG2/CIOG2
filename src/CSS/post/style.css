@@ -136,7 +136,7 @@ body{
 .section__container--content ul{
     margin-bottom: 20px;
 }
-.section__container--content ul span{
+.section__container--content h5{
     color: var(--clarito, white);
     font-size: 1.9rem;
     text-decoration: none;
