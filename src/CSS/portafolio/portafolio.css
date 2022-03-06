@@ -5,3 +5,143 @@ body{
     min-height: 100vh;
     background-color: var(--grisAzulito);
 }
+
+/* .main__portafolio{
+} */
+
+
+#root{
+    display: flex;
+    justify-content: flex-start ;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    min-height: 600px;
+    padding: 30px 0;
+}
+
+.container__proyect{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    min-height: 500px;
+    max-width: 1200px;
+    background-color: var(--clarito);
+    border-radius: 10px;
+    box-shadow: -3px 3px 15px 0px black;
+}
+
+.container__proyect--image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 10px ;
+}
+
+
+.container__images{
+    width: 260px;
+    height: 400px;
+    background-color: gray;
+}
+.left__control--image,
+.right__control--image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px 0px 0px 20px;
+    cursor: pointer;
+}
+.right__control--image{
+    border-radius: 0px 20px 20px 0px;
+}
+.left__control--image img{
+    width: 30px;
+    height: 30px;
+    transform: rotateY(180deg);
+}
+.right__control--image img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+.container__proyect--text{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    min-height: 450px;
+    /* border-left: 1px solid black; */
+}
+
+.proyect__title{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.container__button--link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    height: 80px;
+}
+
+.button__link--style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    font-size: 1.5rem;
+    color: var(--clarito);
+    font-weight: 600;
+    background-color: var(--grisAzulito);
+    padding: 0px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: -1px 1px 4px 2px #000000;
+    transition: all 0.5s;
+}
+
+.button__link--style:hover{
+    box-shadow: -1px 1px 4px 2px #00adb5;
+}
+
+
+
+
+@media screen and (min-width: 786px){
+    .container__proyect{
+        flex-direction: row;
+    }
+    
+    .container__proyect--image{
+        width: 100%;
+        height: 100%;
+        max-width: 400px;
+    }
+}
