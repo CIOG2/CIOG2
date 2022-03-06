@@ -1,10 +1,10 @@
-const data = [1,2]
+import data from '../Datos/proyectos.js';
 
 const root = document.getElementById('root');
 
 const proyects = [];
 
-data.map(({})  =>{
+data.map(({ title, description, images, gitHubLink, paginaLink })  =>{
     
     const arrowLeft = document.createElement('img')
     arrowLeft.src = 'https://i.ibb.co/C5fJ8g7/flecha.png'
@@ -27,9 +27,9 @@ data.map(({})  =>{
     proyectImage.append( leftControlImage, containerImages, rightControlImage );
 
 //------------------------------------------------------------------
-    const title = document.createElement('h2');
-    title.classList.add('proyect__title');
-    title.textContent = 'Clon de instagram';
+    const titleText = document.createElement('h2');
+    titleText.classList.add('proyect__title');
+    titleText.textContent = title;
 
 
 
@@ -37,11 +37,14 @@ data.map(({})  =>{
     const pageLink = document.createElement('a');
     pageLink.classList.add('button__link--style');
     pageLink.textContent = 'Repositorio GitHub';
+    pageLink.target = '_blank';
+    pageLink.href = gitHubLink;
 
     const gitRepoLink = document.createElement('a');
     gitRepoLink.classList.add('button__link--style');
     gitRepoLink.textContent = 'Link Pagina';
-
+    gitRepoLink.target = '_blank';
+    gitRepoLink.href = paginaLink;
 
     const containerButtonsLinks = document.createElement('div')
     containerButtonsLinks.classList.add('container__button--link')
@@ -50,7 +53,7 @@ data.map(({})  =>{
 
     const proyectText = document.createElement('div');
     proyectText.classList.add('container__proyect--text');
-    proyectText.append( title, containerButtonsLinks );
+    proyectText.append( titleText, containerButtonsLinks );
 
 
 
