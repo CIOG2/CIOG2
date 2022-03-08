@@ -29,46 +29,47 @@
 <body>
     <header class="header">
         <nav class="header__nav">
-            <div class="header__nav--conteiner-left">
-            <a href="https://ciog2.github.io/CIOG2/blogMain.html" class="logo-container">
-                <p class="logo-llaves"><</p>
-                <p class="logo-text">CIOG</p>
-                <p class="logo-llaves">/></p>
+          <div class="header__nav--conteiner-left">
+            <a href="https://ciog2.github.io/CIOG2/" class="logo-container">
+              <p class="logo-llaves"><</p>
+              <p class="logo-text">CIOG</p>
+              <p class="logo-llaves">/></p>
             </a>
-            </div>
-            <div class="header__nav--conteiner-right">
+          </div>
+          <div class="header__nav--conteiner-right">
             <div class="hamburger-menu">
-                <button onclick="desplegarLista()">
+              <button onclick="desplegarLista()">
                 <div class="bar top" id="hamburger-top"></div>
                 <div class="bar middle" id="hamburger-middle"></div>
                 <div class="bar bottom" id="hamburger-bottom"></div>
-                </button>
+              </button>
             </div>
             <ul class="LINKS-PARA-TABLET">
-                <li><a href="https://ciog2.github.io/CIOG2/blogMain.html">Blog</a></li>
-                <li><a href="#">Portafolio</a></li>
-                <li><a href="https://ciog2.github.io/CIOG2/SobreMi.html">Sobre Mi</a></li>
-                <li>
-                <a href="https://ciog2.github.io/CIOG2/contacto.html"> <button>Contacto</button> </a>
-                </li>
+              <li><a id="blog-link" >Blog</a></li>
+              <li><a id="portafolio-link" >Portafolio</a></li>
+              <li><a id="sobreMi-link" >Sobre Mi</a></li>
+              <li>
+                <a id="contato-link" > <button>Contacto</button> </a>
+              </li>
             </ul>
-            </div>
+          </div>
         </nav>
         <div id="container-menu-mobile" class="container-menu-mobile-listas">
-            <ul class="container-menu-mobile-listas">
-            <li class="container-menu-mobile-listas"><a href="https://ciog2.github.io/CIOG2/blogMain.html">Blog</a></li>
+          <ul class="container-menu-mobile-listas">
             <li class="container-menu-mobile-listas">
-                <a href="#">Portafolio</a>
+              <a id="blog-mobile-link" >Blog</a></li>
+            <li class="container-menu-mobile-listas">
+              <a id="portafolio-mobile-link" >Portafolio</a>
             </li>
             <li class="container-menu-mobile-listas">
-                <a href="https://ciog2.github.io/CIOG2/SobreMi.html">Sobre Mi</a>
+              <a id="sobreMi-mobile-link" >Sobre Mi</a>
             </li>
             <li class="container-menu-mobile-listas">
-                <a href="https://ciog2.github.io/CIOG2/contacto.html"> <button>Contacto</button> </a>
+              <a id="contato-mobile-link" > <button>Contacto</button> </a>
             </li>
-            </ul>
+          </ul>
         </div>
-    </header>
+      </header>
     <main class="main-aboutMe flex2">
         <section class="main__section--presentacion">
             <div class="text-container">
@@ -341,4 +342,5 @@
 </body>
 <script src="src/JS/componentes/hamburgerButton.js"></script>   
 <script src="./src/JS/componentes/porcentajes.js"></script>
+<script src="./src/JS/componentes/links.js"></script>
 </html>
