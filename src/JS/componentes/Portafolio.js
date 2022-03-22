@@ -31,7 +31,9 @@ data.map(({ title, description, images, gitHubLink, paginaLink })  =>{
     titleText.classList.add('proyect__title');
     titleText.textContent = title;
 
-
+    const descriptionText = document.createElement('p');
+    descriptionText.classList.add('proyect__description');
+    descriptionText.textContent = description;
 
 
     const pageLink = document.createElement('a');
@@ -53,7 +55,7 @@ data.map(({ title, description, images, gitHubLink, paginaLink })  =>{
 
     const proyectText = document.createElement('div');
     proyectText.classList.add('container__proyect--text');
-    proyectText.append( titleText, containerButtonsLinks );
+    proyectText.append( titleText, descriptionText, containerButtonsLinks );
 
 
 
